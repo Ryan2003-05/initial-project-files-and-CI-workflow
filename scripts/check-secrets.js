@@ -5,6 +5,10 @@ const requiredVars = [
   'SUPABASE_SERVICE_ROLE_KEY',
   'EXPO_PUBLIC_SUPABASE_URL',
   'EXPO_PUBLIC_SUPABASE_ANON_KEY',
+  'EXPO_TOKEN',
+  'ANDROID_KEYSTORE_PASSWORD',
+  'ANDROID_KEY_ALIAS',
+  'ANDROID_KEY_PASSWORD',
 ]
 
 const missing = requiredVars.filter((name) => !process.env[name])
